@@ -1,0 +1,242 @@
+body {
+    background-color: #131316;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif; 
+
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+#backgroundJosh {
+    background-image: url("images/longboi.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 60vh;
+}
+
+section {
+    min-height: 90vh;
+}
+
+
+.smallSize{
+    font-size: 80%;
+}
+
+.bigSize{
+    font-size: 130%;
+}
+
+#teal {
+    background-color: teal;
+}
+
+.box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.box1 {
+    margin-top: -20%;
+    min-height: 170vh;
+}
+
+.tighten {
+    max-width: 600px;
+    margin-top: -50%;
+}
+
+.glow {
+    text-shadow: rgba(200,208,212,0.47) 0px 0px 9px; 
+}
+
+.imageGlow {
+    box-shadow: inset 0 0 10px #000000;
+}
+.text-box {
+    max-width: 600px;
+    font-size: 15px;
+}
+
+.reducedTop {
+    margin-top: -20px;
+}
+.reducedBottom {
+    margin-bottom: -20px;
+}
+.reducedBottom1 {
+    margin-bottom: -25%;
+}
+.reducedBottom2 {
+    margin-bottom: -10%;
+}
+
+.addedTop{
+    margin-top: 20%;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.logos {
+    display: flex;
+}
+
+.photo-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+  }
+.photo-grid2 {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 235px;
+}
+  
+
+@media screen and (min-width: 600px) {
+    .card-tall {
+    grid-row: span 2 / auto;
+    }
+
+    .card-wide {
+    grid-column: span 2 / auto;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 8px 6px -6px black;
+ }
+
+ .smallest{
+    font-size: large;
+ }
+  
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+ .twoGrid {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+ }
+
+ .smallCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 8px 6px -6px black;
+ }
+
+ .smallPhotoGrid {
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px;
+ }
+
+ .smallPhotoGrid2 {
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 180px;
+ }
+
+ .topAdd{
+    margin-top: 20%;
+ }
+
+
+.bg {
+    background-color: #0000004f;
+    padding: 5px;
+}
+
+.leftPad{
+    padding-left: 10%;
+}
+.rightPad{
+    padding-right: 10%;
+}
