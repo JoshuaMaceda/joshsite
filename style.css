@@ -179,6 +179,16 @@ img {
     transform: translateY(-3px) scale(1.1);
  }
 
+.animeLink{
+    text-decoration: none;
+    color: #ffffff;
+}
+.animeLink:hover{
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+    text-shadow: rgba(200,208,212,0.47) 0px 0px 9px;
+}
+
  .twoGrid {
     display: grid;
     align-items: center;
